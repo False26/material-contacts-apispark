@@ -2,9 +2,9 @@
 language: java
 
 #build software 
-script: mvn test
+script: mvn package
 
 deploy:
   provider: heroku
-  app: "peaceful-brook-8185"
-  api_key: "bf253e1c-ad23-4b25-bbe8-c64695c5f387"
+  app: master:material-contacts-apispark
+  api_key: bf253e1c-ad23-4b25-bbe8-c64695c5f387
